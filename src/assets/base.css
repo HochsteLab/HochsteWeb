@@ -132,16 +132,16 @@ h6 {
 .navbar li:hover > a {
   color: #5a5af3;
 }
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.navbar .login,
+.navbar .login:focus {
   padding: 6px 25px;
   margin-left: 30px;
   border-radius: 50px;
   color: #5a5af3;
   border: 2px solid #5a5af3;
 }
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
+.navbar .login:hover,
+.navbar .login:focus:hover {
   color: #fff;
   background: #7272f5;
 }
@@ -264,8 +264,8 @@ h6 {
 .navbar-mobile li:hover > a {
   color: #5a5af3;
 }
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile .login,
+.navbar-mobile .login:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -298,18 +298,18 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Top Section
 --------------------------------------------------------------*/
-#hero {
+#top {
   width: 100%;
   height: 100vh;
   background: white;
   border-bottom: 2px solid white;
 }
-#hero .container {
+#top .container {
   padding-top: 80px;
 }
-#hero h1 {
+#top h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 400;
@@ -317,28 +317,28 @@ h6 {
   color: #434175;
   font-family: "Poppins", sans-serif;
 }
-#hero h2 {
+#top h2 {
   margin: 10px 0 0 0;
   font-size: 20px;
 }
-#hero ul {
+#top ul {
   margin-top: 15px;
   list-style: none;
   padding: 0;
 }
-#hero ul li {
+#top ul li {
   padding: 10px 0 0 28px;
   position: relative;
 }
-#hero ul i {
+#top ul i {
   left: 0;
   top: 7px;
   position: absolute;
   font-size: 20px;
   color: #5a5af3;
 }
-#hero .btn-get-started,
-#hero .btn-get-quote {
+#top .btn-get-started,
+#top .btn-get-quote {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -350,64 +350,64 @@ h6 {
   transition: 0.5s;
   border-radius: 50px;
 }
-#hero .btn-get-started {
+#top .btn-get-started {
   background: #5a5af3;
   color: #fff;
   border: 2px solid #5a5af3;
   margin-right: 10px;
 }
-#hero .btn-get-started:hover {
+#top .btn-get-started:hover {
   background: #7272f5;
   border-color: #7272f5;
 }
-#hero .btn-get-quote {
+#top .btn-get-quote {
   color: #5a5af3;
   border: 2px solid #5a5af3;
 }
-#hero .btn-get-quote:hover {
+#top .btn-get-quote:hover {
   background: #5a5af3;
   color: #fff;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #top {
     background-attachment: fixed;
   }
 }
 @media (max-width: 991px) {
-  #hero .hero-img {
+  #top .top-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  #top .top-img img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  #top h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #top h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #hero .hero-img img {
+  #top .top-img img {
     width: 70%;
   }
 }
 @media (max-width: 575px) {
-  #hero {
+  #top {
     text-align: center;
   }
-  #hero ul {
+  #top ul {
     text-align: left;
     font-size: 14px;
   }
-  #hero .hero-img img {
+  #top .top-img img {
     width: 80%;
   }
-  #hero .btn-get-started,
-  #hero .btn-get-quote {
+  #top .btn-get-started,
+  #top .btn-get-quote {
     padding-left: 18px;
     padding-right: 18px;
     font-size: 14px;
@@ -418,7 +418,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 120px 0;
+  margin-top: -60px;
 }
 
 .section-bg {
@@ -888,9 +889,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Team
+# Admin
 --------------------------------------------------------------*/
-.team .member {
+.admin .member {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
@@ -898,11 +899,11 @@ section {
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.team .member .member-img {
+.admin .member .member-img {
   position: relative;
   overflow: hidden;
 }
-.team .member .social {
+.admin .member .social {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -913,42 +914,42 @@ section {
   text-align: center;
   background: rgba(255, 255, 255, 0.85);
 }
-.team .member .social a {
+.admin .member .social a {
   transition: color 0.3s;
   color: #434175;
   margin: 0 10px;
   padding-top: 8px;
   display: inline-block;
 }
-.team .member .social a:hover {
+.admin .member .social a:hover {
   color: #5a5af3;
 }
-.team .member .social i {
+.admin .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
-.team .member .member-info {
+.admin .member .member-info {
   padding: 25px 15px;
 }
-.team .member .member-info h4 {
+.admin .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #434175;
 }
-.team .member .member-info span {
+.admin .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
-.team .member .member-info p {
+.admin .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
 }
-.team .member:hover .social {
+.admin .member:hover .social {
   opacity: 1;
 }
 
@@ -1054,9 +1055,6 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
-  padding: 60px 0;
-}
 .faq .faq-list {
   padding: 0;
   list-style: none;
