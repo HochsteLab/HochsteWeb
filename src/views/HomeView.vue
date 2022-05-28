@@ -24,7 +24,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 top-img" style="padding-left: 120px">
-          <img src="img/TopImage.png" class="img-fluid" alt="">
+          <img src="/img/TopImage.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -235,7 +235,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
     <!-- Admin -->
     <Admin>
       <AdminItem
-        icon="img/admin/Minidon.jpg"
+        icon="/img/admin/Minidon.jpg"
         name="みにどん"
         role="Owner / Server Engineer"
         >
@@ -247,7 +247,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
       </AdminItem>
 
       <AdminItem
-        icon="img/admin/Ak4h4n3.jpg"
+        icon="/img/admin/Ak4h4n3.jpg"
         name="赤羽"
         role="Admin / Server Engineer"
         >
@@ -257,7 +257,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
       </AdminItem>
 
       <AdminItem
-        icon="img/admin/RunQ.jpg"
+        icon="/img/admin/RunQ.jpg"
         name="るんく"
         role="Admin / Server Engineer"
         >
@@ -267,7 +267,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
       </AdminItem>
 
       <AdminItem
-        icon="img/admin/Ikura.jpg"
+        icon="/img/admin/Ikura.jpg"
         name="いくら"
         role="Admin / Server Engineer"
         >
