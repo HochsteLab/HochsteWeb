@@ -233,7 +233,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
     </section>
 
     <!-- Admin -->
-    <Admin>
+    <Admin style="align: center">
       <AdminItem
         icon="/img/admin/Minidon.jpg"
         name="みにどん"
