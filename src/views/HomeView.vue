@@ -158,73 +158,73 @@ import FAQItem from "@/components/faq/FAQItem.vue";
           <div class="col-lg-3 col-md-4">
             <div class="icon-box">
               <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">Midela Teren</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box">
               <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">めろんぱん</a></h3>
+              <h3><a href="">?????</a></h3>
             </div>
           </div>
         </div>
@@ -263,16 +263,6 @@ import FAQItem from "@/components/faq/FAQItem.vue";
         >
         <template #social>
           <a href="https://twitter.com/runq_jp" target="_blank"><i class="bi bi-twitter"></i></a>
-        </template>
-      </AdminItem>
-
-      <AdminItem
-        icon="/img/admin/Ikura.jpg"
-        name="いくら"
-        role="Admin / Server Engineer"
-        >
-        <template #social>
-          <a href="https://twitter.com/ikuraadao" target="_blank"><i class="bi bi-twitter"></i></a>
         </template>
       </AdminItem>
     </Admin>
