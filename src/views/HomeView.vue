@@ -233,7 +233,7 @@ import FAQItem from "@/components/faq/FAQItem.vue";
     </section>
 
     <!-- Admin -->
-    <Admin style="align: center">
+    <Admin>
       <AdminItem
         icon="/img/admin/Minidon.jpg"
         name="みにどん"
@@ -263,6 +263,15 @@ import FAQItem from "@/components/faq/FAQItem.vue";
         >
         <template #social>
           <a href="https://twitter.com/runq_jp" target="_blank"><i class="bi bi-twitter"></i></a>
+        </template>
+      </AdminItem>
+
+      <AdminItem
+        icon="https://tengakuin.jp/wp-content/themes/tengakuin/img/move/ffffff.png"
+        name="なし"
+        role="なし"
+        >
+        <template #social>
         </template>
       </AdminItem>
     </Admin>
